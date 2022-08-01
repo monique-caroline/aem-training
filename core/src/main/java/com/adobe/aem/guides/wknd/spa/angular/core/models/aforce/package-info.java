@@ -17,3 +17,4 @@
 package com.adobe.aem.guides.wknd.spa.angular.core.models.aforce;
 
 import org.osgi.annotation.versioning.Version;
+

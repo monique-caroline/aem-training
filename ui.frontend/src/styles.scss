@@ -44,8 +44,14 @@ body.page {
 // Headings
 // -------------------------
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+.h1 {
+line-height: $line-height-base;
+color: $brand-primary;
+}
+
+h2, h3, h4, h5, h6,
+.h2, .h3, .h4, .h5, .h6 {
 line-height: $line-height-base;
 color: $text-color;
 }
@@ -53,7 +59,7 @@ color: $text-color;
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-font-family: $font-family-serif;
+font-family: $font-family-sans-serif;
 font-weight: $font-weight-normal;
 margin-top: $line-height-computed;
 margin-bottom: ($line-height-computed / 2);
