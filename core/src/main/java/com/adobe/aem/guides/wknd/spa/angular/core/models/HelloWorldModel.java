@@ -23,7 +23,7 @@ import java.util.Optional;
 @Exporter(name = ExporterConstants.SLING_MODEL_EXPORTER_NAME, extensions = ExporterConstants.SLING_MODEL_EXTENSION)
 public class HelloWorldModel implements ComponentExporter {
 
-    static final String RESOURCE_TYPE = "wknd-spa-angular/components/helloworld";
+    static final String RESOURCE_TYPE = "";
     @OSGiService
     private SlingSettingsService settings;
     @SlingObject

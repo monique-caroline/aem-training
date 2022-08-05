@@ -29,8 +29,8 @@
                         <items jcr:primaryType="nt:unstructured">
                             <h1 
                                 jcr:primaryType="nt:unstructured"
-                                text="DIV"
-                                value="div"
+                                text="H1"
+                                value="h1"
                                 selected="{Boolean}true"
                                 />
                             <h2 

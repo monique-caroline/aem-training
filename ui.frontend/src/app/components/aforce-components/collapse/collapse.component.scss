@@ -1,0 +1,13 @@
+@import "~src/styles/variables";
+
+.accordion {
+    color: $brand-primary;
+}
+
+.card-header {
+    background-color: $body-bg;
+}
+
+.card-body {
+    background-color: $text-color;
+}

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-07-20T16:14:57.541-07:00"
+        cq:lastModified="{Date}2022-08-02T00:55:50.169-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd-spa-angular/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -15,11 +15,11 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
                 <text
-                    jcr:lastModified="{Date}2020-05-30T17:18:51.661-07:00"
+                    jcr:lastModified="{Date}2022-07-30T19:04:03.627-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-spa-angular/components/text"
-                    text="&lt;h1 style=&quot;text-align: center;&quot;>&lt;u>What are you doing this WKND?&lt;/u>&lt;/h1>&#xd;&#xa;"
+                    text="&lt;h1 style=&quot;text-align: center;&quot;>&lt;b>A-FORCE&lt;/b>&lt;/h1>&#xd;&#xa;"
                     textIsRich="true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -28,20 +28,259 @@
                             width="12"/>
                     </cq:responsive>
                 </text>
+                <text_1547291773
+                    jcr:created="{Date}2022-07-09T23:12:25.003-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-31T20:43:41.088-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"
+                    text="&lt;p>&lt;b>A-Force &lt;/b>é um grupo de super-heroínas de histórias em quadrinhos criado pela &lt;a href=&quot;https://www.marvel.com/&quot; target=&quot;_blank&quot;>Marvel&lt;/a>. É um série elaborada pelas escritoras&amp;nbsp;&lt;a href=&quot;http://www.google.com.br&quot; target=&quot;_blank&quot;>G. Willow Wilson&lt;/a> e &lt;a href=&quot;https://en.wikipedia.org/wiki/Marguerite_Bennett&quot; target=&quot;_blank&quot;>Marguerite Bennett&lt;/a> e desenhada pelo artista &lt;a href=&quot;https://en.wikipedia.org/wiki/Jorge_Molina_(comics)&quot; target=&quot;_blank&quot;>Jorge Molina&lt;/a>.&lt;/p>&#xd;&#xa;&lt;p>Conta com a presença de &lt;b>Mulher Hulk&lt;/b>, &lt;b>Capitã Marvel&lt;/b>, &lt;b>Vespa&lt;/b>, &lt;b>Feiticeira Escarlate&lt;/b>, &lt;b>Mulher-Aranha&lt;/b>, &lt;b>Singularidade&lt;/b>, &lt;b>Cristal&lt;/b>, &lt;b>Nico Minoru&lt;/b>, &lt;b>Tempestade&lt;/b>, entre tantas outras.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <image
+                    jcr:created="{Date}2022-07-30T19:14:08.165-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T19:14:40.396-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/image"
+                    alt="banner"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/a-force-banner.jpg"
+                    isDecorative="false"
+                    titleValueFromDAM="true"/>
+                <text_601746008
+                    jcr:created="{Date}2022-07-30T23:15:12.641-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T23:15:12.641-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"/>
+                <text_2107394801
+                    jcr:created="{Date}2022-07-10T00:51:40.362-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T23:17:36.991-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"
+                    text="&lt;h2 style=&quot;text-align: left;&quot;>&amp;nbsp;&lt;/h2>&#xd;&#xa;&lt;h2 style=&quot;text-align: left;&quot;>Representatividade&lt;br>&#xd;&#xa;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;text-align: left;&quot;>Em meados dos anos 1990, a indústria do entretenimento passou por uma crise criativa e de marketing que impactou dieratamente sua perfomance até então. Levando a necessidade de segmentação na publicidade, de olhar para outros públicos antes focado mais na classe média, branca e dentro dos padrões patriarcais.&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="8"/>
+                    </cq:responsive>
+                </text_2107394801>
+                <image_1911521865
+                    jcr:created="{Date}2022-07-30T21:36:48.358-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T21:49:05.218-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/image"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/comic-square-1.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </image_1911521865>
+                <text_561683044
+                    jcr:created="{Date}2022-07-30T21:39:02.412-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T21:40:40.383-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"
+                    text="&lt;p>Nos últimos 20 anos grupos antes ignorados e estigmatizados pela publicidade tornaram-se consumidores valiosos. Isso fez com que o cinema e a TV&amp;nbsp; ampliassem seu olhar para além do público de sempre, criando produtos que representassem mais diversidade.&lt;/p>&#xd;&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <image_1111913560_cop
+                    jcr:created="{Date}2022-07-30T23:03:21.590-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T23:13:11.691-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/image"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/line1.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </image_1111913560_cop>
+                <carousel
+                    jcr:created="{Date}2022-07-24T14:55:37.313-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T22:50:15.281-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/aforce-components/carousel">
+                    <items jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            imagePath="/content/dam/wknd-spa-angular/a-force/she-huck-carousel.jpg"
+                            title="Mulher Huck"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            imagePath="/content/dam/wknd-spa-angular/a-force/scarlate-carousel.jpg"
+                            title="Feiticeira Escarlate"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            imagePath="/content/dam/wknd-spa-angular/a-force/singularity-carousel.jpg"
+                            title="Singularidade"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            imagePath="/content/dam/wknd-spa-angular/a-force/fenix-negra-carousel.png"
+                            title="Fênix Negra"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            imagePath="/content/dam/wknd-spa-angular/a-force/tempestade-carousel.webp"
+                            title="Tempestade"/>
+                    </items>
+                </carousel>
+                <image_1111913560
+                    jcr:created="{Date}2022-07-30T23:03:21.590-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T23:13:11.691-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/image"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/line1.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </image_1111913560>
+                <text_14089891_copy
+                    jcr:created="{Date}2022-07-30T21:55:17.425-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T21:55:17.425-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"/>
+                <image_1911521865_cop
+                    jcr:created="{Date}2022-07-30T21:36:48.358-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T22:54:36.681-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/image"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/comic-square-3.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </image_1911521865_cop>
+                <text_2107394801_copy
+                    jcr:created="{Date}2022-07-10T00:51:40.362-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T23:22:10.490-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"
+                    text="&lt;h2 style=&quot;text-align: right;&quot;>Diversidade&lt;br>&#xd;&#xa;&lt;/h2>&#xd;&#xa;&lt;p style=&quot;text-align: right;&quot;>Uma análise dos 350 filmes de maior bilheteria em todo o mundo, lançados entre 2014 e 2017, indica que filmes e séries com mulheres como protagonista geraram mais lucro que as encabeçadas por homens.&lt;/p>&#xd;&#xa;&lt;p style=&quot;text-align: right;&quot;>Essa tendência se mantém quando olhamos o top 10 de 2019. Outros estudos mostram que filmes com protagnistas mais diversos atraem um público mais diverso.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="8"/>
+                    </cq:responsive>
+                </text_2107394801_copy>
+                <text_1325954470
+                    jcr:created="{Date}2022-07-30T21:56:12.960-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T23:21:20.972-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"
+                    text="&lt;p style=&quot;text-align: right;&quot;>&amp;quot;Pantera Negra&amp;quot; atraiu mais pessoas negras, principalmente as que não costumam ir ao cinema, e &amp;quot;Mulher-Maravilha&amp;quot; teve 16% mais espectadores mulheres do que a média dos filmes de super-herói.&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+                <text_14089891
+                    jcr:created="{Date}2022-07-30T21:55:17.425-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T21:55:17.425-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"/>
+                <image_1111913560_cop_2075343827
+                    jcr:created="{Date}2022-07-30T23:03:21.590-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-30T23:13:11.691-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/image"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/line1.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="2"
+                            width="8"/>
+                    </cq:responsive>
+                </image_1111913560_cop_2075343827>
+                <text_copy
+                    jcr:lastModified="{Date}2022-07-31T20:19:13.563-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/text"
+                    text="&lt;h1 style=&quot;text-align: center;&quot;>&lt;b>SUPER PODEROSAS&lt;/b>&lt;/h1>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text_copy>
                 <card
                     jcr:created="{Date}2020-07-19T13:00:34.411-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-07-20T15:08:12.605-07:00"
+                    jcr:lastModified="{Date}2022-07-31T20:29:17.198-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-spa-angular/components/card"
-                    altValueFromDAM="true"
-                    cardPath="/content/wknd-spa-angular/us/en/home/page-1"
-                    ctaText="Read More"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    cardPath="/content/wknd-spa-angular/us/en/home/jane-foster"
+                    cardTitle="Jane Foster"
+                    ctaText="Saiba mais"
                     displayPopupTitle="false"
-                    fileReference="/content/dam/wknd/en/magazine/skitouring/Skitouring6Sjoeberg.JPG"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/card-jane.jpg"
                     isDecorative="false"
-                    titleFromPage="true"
+                    titleFromPage="false"
                     titleValueFromDAM="true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -61,17 +300,19 @@
                 <card_copy
                     jcr:created="{Date}2020-07-19T13:00:34.411-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-07-20T15:08:07.675-07:00"
+                    jcr:lastModified="{Date}2022-07-31T20:29:23.171-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-spa-angular/components/card"
-                    altValueFromDAM="true"
-                    cardPath="/content/wknd-spa-angular/us/en/home/page-2"
-                    ctaText="Read More"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    cardPath="/content/wknd-spa-angular/us/en/home/aldrif-odinsdottir"
+                    cardTitle="Aldrif Odinsdottir"
+                    ctaText="Saiba mais"
                     displayPopupTitle="false"
-                    fileReference="/content/dam/wknd/en/activities/hiking/alpinists-himalayas.jpg"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/card-angela-marvel.jpg"
                     isDecorative="false"
-                    titleFromPage="true"
+                    titleFromPage="false"
                     titleValueFromDAM="true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -91,17 +332,19 @@
                 <card_copy_copy
                     jcr:created="{Date}2020-07-19T13:00:34.411-07:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-07-20T16:14:57.536-07:00"
+                    jcr:lastModified="{Date}2022-07-31T20:29:32.297-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-spa-angular/components/card"
-                    altValueFromDAM="true"
-                    cardPath="/content/wknd-spa-angular/us/en/home/page-2/page-3"
-                    ctaText="Read More"
+                    alt="Image Alternative Text"
+                    altValueFromDAM="false"
+                    cardPath="/content/wknd-spa-angular/us/en/home/emma-frost"
+                    cardTitle="Emma Frost"
+                    ctaText="Saiba mais"
                     displayPopupTitle="false"
-                    fileReference="/content/dam/wknd/en/activities/cycling/forest-trail.jpg"
+                    fileReference="/content/dam/wknd-spa-angular/a-force/card-emma-frost.jpg"
                     isDecorative="false"
-                    titleFromPage="true"
+                    titleFromPage="false"
                     titleValueFromDAM="true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
@@ -118,25 +361,34 @@
                             width="6"/>
                     </cq:responsive>
                 </card_copy_copy>
-                <text_386303036
-                    jcr:created="{Date}2020-05-27T16:09:41.987-07:00"
+                <item_copy jcr:primaryType="nt:unstructured"/>
+                <form
+                    jcr:created="{Date}2022-08-01T23:47:03.918-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2020-05-30T17:31:45.464-07:00"
+                    jcr:lastModified="{Date}2022-08-02T00:08:03.795-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-spa-angular/components/text"
-                    text="&lt;p>Check out some of the great adventures above!&lt;/p>&#xd;&#xa;"
-                    textIsRich="true">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
+                    sling:resourceType="wknd-spa-angular/components/aforce-components/form"
+                    description="Esse é apenas um exemplo"
+                    title="Exemplo">
+                    <items jcr:primaryType="nt:unstructured">
+                        <item0
                             jcr:primaryType="nt:unstructured"
-                            offset="0"
-                            width="12"/>
-                    </cq:responsive>
-                </text_386303036>
+                            description="teste"
+                            title="teste"/>
+                    </items>
+                </form>
+                <card_2110250773
+                    jcr:created="{Date}2022-08-02T00:55:50.160-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-08-02T00:55:50.160-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-spa-angular/components/aforce-components/card"/>
             </responsivegrid>
         </root>
     </jcr:content>
-    <page-1/>
-    <page-2/>
+    <jane-foster/>
+    <aldrif-odinsdottir/>
+    <emma-frost/>
 </jcr:root>

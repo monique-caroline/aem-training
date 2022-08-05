@@ -32,6 +32,10 @@ import { CardComponent } from './components/card/card.component';
 import { HelloworldComponent } from './components/helloworld/helloworld.component';
 import { CarouselComponent } from './components/aforce-components/carousel/carousel.component';
 import { CardAforceComponent } from './components/aforce-components/card/card.component';
+import { BannerComponent} from './components/aforce-components/banner/banner.component';
+
+import { FormComponent } from './components/aforce-components/form/form.component';
+import { CollapseComponent } from './components/aforce-components/collapse/collapse.component';
 
 @NgModule({
   imports: [
@@ -41,9 +45,10 @@ import { CardAforceComponent } from './components/aforce-components/card/card.co
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: '/' }],
   declarations: [AppComponent, TextComponent, PageComponent, HeaderComponent,
-    ImageComponent, NavigationComponent, CustomComponent, CardComponent, HelloworldComponent, CarouselComponent, CardAforceComponent],
+    ImageComponent, NavigationComponent, CustomComponent, CardComponent, HelloworldComponent, CarouselComponent, CardAforceComponent
+    , BannerComponent, FormComponent, CollapseComponent],
   entryComponents: [TextComponent, PageComponent, ImageComponent, HeaderComponent, CustomComponent, HelloworldComponent
-    , CarouselComponent, CardAforceComponent],
+    , CarouselComponent, CardAforceComponent, BannerComponent, FormComponent, CollapseComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
